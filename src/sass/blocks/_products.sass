@@ -1,0 +1,71 @@
+.products
+    padding-top: 70px
+    padding-bottom: 100px
+    .title
+        text-align: center
+        margin: 0 auto
+    &__tabs
+        width: 40%
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding-inline-start: 0px !important
+        margin-top: 45px
+        li
+            list-style-type: none
+            font-weight: 400
+            font-size: 15px
+            color: #777777
+            cursor: pointer
+            &:hover
+                color: $text-color
+    &__tab-active
+        div
+            font-weight: 600
+            color: $text-color
+    &__slider
+        position: relative
+        margin-top: 35px
+
+.product
+    &__img
+        width: 270px
+        height: 320px
+
+    &__slide
+        width: 270px
+    &__name
+        margin-top: 20px
+
+    &__category-price
+        display: flex
+        justify-content: space-between
+        align-items: center
+        height: 15px
+        margin-top: 15px
+    &__category
+        font-size: 16px
+        color: #777777
+    &__price
+        font-size: 16px
+        font-weight: 600
+        color: #000000
+
+.slick-slide
+    padding: 0 20px 0 20px
+
+.slick-prev, .slick-next
+    position: absolute
+    border: none
+    background: none
+    cursor: pointer
+    width: 60px
+    height: 60px
+    z-index: 2
+
+.products
+    .slick-prev, .slick-next
+        top: 30%
+        left: 10px
+    .slick-next
+        left: calc( 100% - (60px + 10px) )
