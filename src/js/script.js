@@ -20,4 +20,23 @@ $(document).ready(function () {
             },
         ],
     });
+
+    $(".reviews__slider").slick({
+        centerPadding: "40px",
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        variableWidth: true,
+        arrows: false,
+        dots: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    dots: true,
+                },
+            },
+        ],
+    });
 });
