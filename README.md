@@ -5,4 +5,4 @@
 <li>This project was developed using BEM methodology</li>
 <li>Project styles using SASS preprocessor</li>
 <li>Gulp was used for the build</li>
-]</ul>
+</ul>
