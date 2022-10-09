@@ -1,0 +1,57 @@
+.shoes-main
+    padding-bottom: 50px
+    &__title
+        position: absolute
+        transform: translateY(100%)
+        z-index: 3
+        h2
+            font-weight: 500
+            font-size: 60px
+            line-height: 80px
+            color: #fff
+            width: 70%
+    &__links
+        z-index: 999999
+        margin-top: 60px
+    &__btn
+        font-size: 16px
+        color: #fff
+        padding: 5px
+        width: 150px
+        height: 60px
+        border-bottom: 1px solid #fff
+        &:last-child
+            margin-left: 30px
+        &:hover
+            background-color: #fff
+            color: $text-color
+            padding: 10px
+            transition: 0.3s
+
+    &__slider
+        z-index: 2
+        position: relative
+    .slider__item
+        height: 750px
+        img
+            height: 100%
+            width: auto
+
+    .slick-prev, .slick-next
+        position: absolute
+        border: none
+        background: none
+        cursor: pointer
+        width: 40px
+        height: 40px
+        z-index: 2
+        top: 50%
+    .slick-prev
+        left: 20px
+    .slick-next
+        right: 20px
+    .slick-slide
+        transform: translateX(-20px)
+    .slick-slide
+        padding: 0
+        margin: 0 10px

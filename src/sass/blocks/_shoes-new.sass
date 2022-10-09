@@ -1,0 +1,161 @@
+.shoes-new
+    padding-top: 100px
+    padding-bottom: 150px
+    background: url(../img/shoes/new/bg.jpg) no-repeat
+    background-size: 100% 500px
+    h2
+        font-weight: 600
+        font-size: 60px
+        text-transform: uppercase
+        color: #fff
+        text-align: center
+    &__tabs
+        margin: 0 auto
+        margin-top: 25px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 20%
+
+        li
+            color: #fff
+            cursor: pointer
+            &:hover
+                font-weight: 500
+    &__tab-active
+        div
+            font-weight: 600
+            border-bottom: 1px solid #fff
+
+    &__wrapper
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        margin-top: 80px
+    &__item
+        &:hover
+            .product__descr
+                transform: translateY(-60px)
+
+            .product__info
+                visibility: visible
+                transition: 0.5s linear
+
+        img
+            width: 270px
+            height: 320px
+    &__btn
+        color: $text-color
+        font-weight: 500
+        height: 40px
+        border-bottom: 2px solid $text-color
+        margin: 0 auto !important
+        display: flex
+        align-items: end
+        justify-content: center
+        &:hover
+            background-color: $bg-color
+            border: none
+            align-items: center
+            transition: 0.3s linear
+
+.shoes-new, .shoes-bestsellers
+    .product__descr
+        display: flex
+        justify-content: space-between
+        align-items: center
+        background-color: #fff
+    .product__info
+        transform: translateY(-60px)
+        margin-top: 10px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        visibility: hidden
+        background-color: #fff
+        div
+            a
+                color: #767676
+                font-size: 14px
+                margin-right: 5px
+                &:hover
+                    color: $main-color
+                    font-weight: 500
+
+.buy__btn
+    width: 100px
+    height: 40px
+    border: 1px solid #111
+    display: flex
+    justify-content: center
+    align-items: center
+    color: $text-color
+    font-size: 16px
+    text-transform: uppercase
+    &:hover
+        background-color: $main-color
+        color: #fff
+        border: 1px solid $main-color
+
+input[type='radio'],
+label
+    cursor: pointer
+
+input[type='radio']
+    position: relative
+    height: 16px
+    width: 16px
+    -webkit-appearance: none
+    -moz-appearance: none
+    appearance: none
+    outline: none
+
+input[type='radio']::before
+    content: ''
+    position: absolute
+    top: 50%
+    left: 50%
+    width: 16px
+    height: 16px
+    border-radius: 50%
+    transform: translate(-50%, -50%)
+    background-color: #585757
+input[id='green-btn']::before
+    background-color: green
+input[id='black-btn']::before
+    background-color: black
+input[id='red-btn']::before
+    background-color: red
+input[id='grey-btn']::before
+    background-color: grey
+input[id='white-btn']::before
+    background-color: white
+    border: 1px solid grey
+    width: 15px
+    height: 15px
+input[id='blue-btn']::before
+    background-color: #8ba2ec
+input[id='beige-btn']::before
+    background-color: #e8d4ae
+input[id='purple-btn']::before
+    background-color: #a585f066
+input[id='brown-btn']::before
+    background-color: #96596077
+input[id='darkbrown-btn']::before
+    background-color: #692d17a7
+input[id='raspberry-btn']::before
+    background-color: #d92e6a
+input[id='orange-btn']::before
+    background-color: #ec9d2e
+
+input[type='radio']:checked::after
+    content: ''
+    position: absolute
+    top: 50%
+    left: 50%
+    width: 19px
+    height: 19px
+    border-radius: 50%
+    border: 2px solid #111
+    transform: translate(-50%, -50%)
+    visibility: visible

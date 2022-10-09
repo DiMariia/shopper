@@ -51,6 +51,19 @@
         justify-content: space-between
         align-items: center
 
+    .menu-item-active
+        a
+            color: $main-color
+        a::before
+            content: ''
+            position: absolute
+            left: 0
+            bottom: -5px
+            width: 0
+            height: 1.7px
+            background-color: $main-color
+            width: 100%
+
 .fixed
     z-index: 9999
     position: fixed

@@ -1,0 +1,46 @@
+.watches-main
+    padding-bottom: 30px
+    &__title
+        position: absolute
+        transform: translateY(40%)
+        z-index: 3
+        h2
+            font-weight: 600
+            font-size: 44px
+            color: #fff
+            text-transform: uppercase
+        .subtitle
+            color: #fff
+            font-size: 16px
+            b
+                color: $main-color
+                font-weight: 600
+                font-size: 110px
+                line-height: 133px
+        p
+            font-size: 15px
+            line-height: 22px
+            color: #A0A0A0
+            margin-top: 20px
+            width: 70%
+
+    &__slider
+        position: relative
+        height: 700px
+        width: 100%
+    &__slide
+        transform: translateX(-25px)
+        img
+            height: 700px
+            width: 100%
+    .slick-dots
+        width: 0px !important
+        position: relative
+        flex-direction: column
+        padding: 0 1rem
+        top: -160%
+        left: 98%
+        // transform: translateY(-250%)
+
+        li
+            margin: 0.25rem 0 !important

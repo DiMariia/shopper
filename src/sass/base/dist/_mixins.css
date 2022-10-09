@@ -1,0 +1,17 @@
+@-webkit-keyframes promo {
+  0% {
+    background-image: url(../img/b/watches.jpg);
+  }
+  25% {
+    background-image: url(../img/b/shoes.jpg);
+  }
+  50% {
+    background-image: url(../img/b/glasses.jpg);
+  }
+  75% {
+    background-image: url(../img/b/shoes1.jpg);
+  }
+  100% {
+    background-image: url(../img/b/watches.jpg);
+  }
+}

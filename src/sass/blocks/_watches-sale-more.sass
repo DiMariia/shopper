@@ -1,0 +1,54 @@
+.watches-sale-more
+    padding-top: 50px
+    padding-bottom: 50px
+    &__wrap
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__item
+        width: 570px
+        height: 600px
+        position: relative
+        &:hover
+            .watches-sale-more__link
+                transform: translateY(-80%)
+                transition: 0.5s
+
+        .promo__discount-watch
+            position: relative
+            top: -115%
+            left: 5%
+            width: 96px
+            height: 96px
+            display: flex
+            align-items: center
+            flex-direction: column
+    &__old-price
+        text-decoration: line-through
+    &__img
+        width: 570px
+        height: 600px
+    &__link
+        width: 420px
+        height: 110px
+        background-color: #fff
+        transform: translateY(-50%)
+        margin: 0 auto
+        display: block
+        text-align: center
+        cursor: pointer
+        &:hover
+            transform: translateY(-80%)
+            transition: 0.5s
+
+        h4
+            font-weight: 500
+            font-size: 28px
+            color: $text-color
+        a
+            margin: 0
+            margin: 0 auto
+            font-weight: 500
+            &:hover
+                background-color: #ffff
+                color: $text-color
