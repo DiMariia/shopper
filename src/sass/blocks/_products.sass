@@ -1,0 +1,105 @@
+.products
+    padding-top: 70px
+    padding-bottom: 100px
+    .title
+        text-align: center
+        margin: 0 auto
+    &__tabs
+        width: 40%
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding-inline-start: 0px !important
+        margin-top: 45px
+        li
+            list-style-type: none
+            font-weight: 400
+            font-size: 15px
+            color: #777777
+            cursor: pointer
+            &:hover
+                color: $text-color
+    &__tab-active
+        div
+            font-weight: 600
+            color: $text-color
+    &__slider
+        position: relative
+        margin-top: 35px
+
+.product
+    &__img
+        width: 270px
+        height: 320px
+
+    &__slide
+        width: 270px
+        &:hover
+            .product__info-home
+                visibility: visible
+            .product_descr
+                transform: translateY(-40px)
+    &_descr
+        transform: translateY(-40px)
+
+    &__name
+        margin-top: 20px
+
+    &__category-price
+        display: flex
+        justify-content: space-between
+        align-items: center
+        height: 15px
+        margin-top: 15px
+    &__category
+        font-size: 16px
+        color: #777777
+    &__price
+        font-size: 16px
+        font-weight: 600
+        color: #A0A0A0
+        &-old
+            color: #A0A0A0
+            font-size: 13px
+            margin-top: 20px
+            text-decoration: line-through
+    &__info-home
+        position: relative
+        background-color: rgba(0, 0, 0, 0.7)
+        display: flex
+        justify-content: space-between
+        transform: translateY(-40px)
+        visibility: hidden
+        z-index: 5
+        height: 40px
+        .product__links
+            display: flex
+            justify-content: space-between
+            align-items: center
+            a
+                img
+                    width: 20px
+                    height: auto
+                    margin-left: 10px
+.product__price-old + .product__price
+    margin-top: 5px
+    color: $main-color
+
+.slick-slide
+    padding: 0 20px 0 20px
+
+.slick-prev, .slick-next
+    position: absolute
+    border: none
+    background: none
+    cursor: pointer
+    width: 60px
+    height: 60px
+    z-index: 2
+
+.products
+    .slick-prev, .slick-next
+        top: 30%
+        left: 10px
+    .slick-next
+        left: calc( 100% - (60px + 10px) )

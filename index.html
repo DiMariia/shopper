@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/slick.css" />
+
+    <title>Shopper.</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+
+            <div class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="menu-item menu-item-active">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="shoes.html">Shoes</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="watches.html">Watches</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Pages</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Elements</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="#" class="header__logo">Shopper.</a>
+
+            <div class="header__selected">
+                <select id="person" name="personlist" form=" ">
+                    <option value="1">Unated States</option>
+                    <option value="2">Ukraine</option>
+                </select>
+
+                <select id="person" name="personlist" form=" ">
+                    <option value="1">USD</option>
+                    <option value="2">EUR</option>
+                    <option value="2">UAH</option>
+
+                </select>
+
+                <select id="person" name="personlist" form=" ">
+                    <option value="1">EN</option>
+                    <option value="2">UK</option>
+                </select>
+            </div>
+
+            <div class="header__link">
+                <a href="#"><img src="src/img/header/search.png" alt="search"></a>
+                <a href="registration.html"><img src="src/img/header/person.png" alt="account"></a>
+                <a href="#"><img src="src/img/header/heart.png" alt="liked"></a>
+                <a href="#"><img src="src/img/header/cart.png" alt="cart"></a>
+            </div>
+            <div class="header__burger">
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="main">
+            <div class="container">
+                <h1>SPRING SUMMER 2022</h1>
+                <a class="btn" href="#">SHOP NOW</a>
+            </div>
+
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="features__wrapper">
+
+                    <div class="features__block">
+                        <div class="features__img"><img src="src/img/home/features/shipping.png" alt="icon">
+                        </div>
+                        <div class="features__text">
+                            <h3>Free Shipping</h3>
+                            <p>From all orders over $100</p>
+                        </div>
+                    </div>
+
+                    <div class="features__block">
+                        <div class="features__img"><img src="src/img/home/features/returns.png" alt="icon">
+                        </div>
+                        <div class="features__text">
+                            <h3>Free Returns</h3>
+                            <p>Return money within 30 days</p>
+                        </div>
+                    </div>
+
+                    <div class="features__block">
+                        <div class="features__img"><img src="src/img/home/features/secure.png" alt="icon">
+                        </div>
+                        <div class="features__text">
+                            <h3>Secure Shopping</h3>
+                            <p> You're in safe hands</p>
+                        </div>
+                    </div>
+
+                    <div class="features__block">
+                        <div class="features__img"><img src="src/img/home/features/styles.png" alt="icon">
+                        </div>
+                        <div class="features__text">
+                            <h3>Over 10,000 Styles</h3>
+                            <p>We have everything you need</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <h2 class="title">New products</h2>
+
+                <ul class="products__tabs">
+                    <li class="products__tab products__tab-active">
+                        <div>All products</div>
+                    </li>
+                    <li class="products__tab">
+                        <div>Shoes</div>
+                    </li>
+                    <li class="products__tab">
+                        <div>Watches</div>
+                    </li>
+                    <li class="products__tab">
+                        <div>Handmade</div>
+                    </li>
+                    <li class="products__tab">
+                        <div>Glasses</div>
+                    </li>
+                    <li class="products__tab">
+                        <div>Home decor</div>
+                    </li>
+                </ul>
+
+                <div class="products__slider">
+
+                    <div class="product__slide">
+                        <img class="product__img" src="src/img/home/products/decor1.jpg" alt="img" />
+                        <div class="product__info-home">
+                            <div class="product__links">
+                                <a href=""><img src="src/img/home/products/view.png" alt=""></a>
+                                <a href=""><img src="src/img/home/products/liked.png" alt=""></a>
+                                <a href=""><img src="src/img/home/products/card.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="product_descr">
+                            <h4 class="product__name">Flowers in Glass Vase</h4>
+                            <div class="product__category-price">
+                                <p class="product__category">Botanical Decor</p>
+                                <p class="product__price">$45.00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product__slide">
+                        <img class="product__img" src="src/img/home/products/watches.png" alt="img" />
+                        <div class="product__info-home">
+                            <div class="product__links">
+                                <a href=""><img src="src/img/home/products/view.png" alt=""></a>
+                                <a href=""><img src="src/img/home/products/liked.png" alt=""></a>
+                                <a href=""><img src="src/img/home/products/card.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="product_descr">
+                            <h4 class="product__name">Hamilton Women's Watch</h4>
+                            <div class="product__category-price">
+                                <p class="product__category">Watch</p>
+                                <p class="product__price"> $620.00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product__slide">
+                        <img class="product__img" src="src/img/home/products/glasses.jpg" alt="img" />
+                        <div class="product__info-home">
+                            <div class="product__links">
+                                <a href=""><img src="src/img/home/products/view.png" alt=""></a>
+                                <a href=""><img src="src/img/home/products/liked.png" alt=""></a>
+                                <a href=""><img src="src/img/home/products/card.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="product_descr">
+                            <h4 class="product__name">VonZipper Stax Polarized</h4>
+                            <div class="product__category-price">
+                                <p class="product__category">Glasses</p>
+                                <p class="product__price">$200.00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product__slide">
+                        <img class="product__img" src="src/img/home/products/shoes2.png" alt="img" />
+                        <div class="product__info-home">
+                            <div class="product__links">
+                                <a href=""><img src="src/img/home/products/view.png" alt=""></a>
+                                <a href=""><img src="src/img/home/products/liked.png" alt=""></a>
+                                <a href=""><img src="src/img/home/products/card.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="product_descr">
+                            <h4 class="product__name">Leather wide Heels</h4>
+                            <div class="product__category-price">
+                                <p class="product__category">Shoe</p>
+                                <p class="product__price">$85.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="promo">
+            <div class="container">
+                <div class="promo__wrapper">
+                    <div class="promo__img">
+                        <div class="promo__photo"></div>
+                        <div class="overlay">
+                            <h2>SALE OF SELECTED ITEMS</h2>
+                            <div class="promo__discount">
+                                <p> save <br><b>30%</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="promo__descr">
+                        <h2 class="title">Get -30% from Spring Collection</h2>
+                        <div class="timer">
+                            <div class="timer__items">
+                                <div class="timer__item timer__days">00</div>
+                                <div class="timer__item timer__hours">00</div>
+                                <div class="timer__item timer__minutes">00</div>
+                                <div class="timer__item timer__seconds">00</div>
+                            </div>
+                        </div>
+                        <a class=" promo__btn" href="#">Shop Now<img src="src/img/arrow.png" alt="arrow"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <div class="container">
+                <div class="title__block">
+                    <h4 class="topic">reviews</h4>
+                    <h2 class="title">What buyers say about our store</h2>
+                    <a href="#">Shop Now <img src="src/img/arrow.png" alt="arrow"></a>
+                </div>
+            </div>
+
+            <div class="reviews__slider">
+
+                <div class="review__item">
+                    <div class="review__header">
+                        <div class="review__img"><img src="src/img/reviews/user.png" alt="user-icon"></div>
+                        <div class="review__descr">
+                            <div class="review__rating">
+                                <img src="src/img/reviews/star.png" alt="">
+                                <img src="src/img/reviews/star.png" alt="">
+                                <img src="src/img/reviews/star.png" alt="">
+                                <img src="src/img/reviews/star.png" alt="">
+                                <img src="src/img/reviews/star.png" alt="">
+                            </div>
+                            <p class="review__name">Catherine Hicks, 21 Jul 2019</p>
+                        </div>
+                    </div>
+                    <div class="review__main">“ Creeping his under doesn't.
+                        Above two fourth dry open blessed
+                        our creeping, made great. ”</div>
+                </div>
+
+                <div class="review__item">
+                    <div class="review__header">
+                        <div class="review__img"><img src="src/img/reviews/user-1.png" alt="user-icon"></div>
+                        <div class="review__descr">
+                            <div class="review__rating">
+                                <img src="src/img/reviews/star.png" alt="">
+                                <img src="src/img/reviews/star.png" alt="">
+                                <img src="src/img/reviews/star.png" alt="">
+                                <img src="src/img/reviews/star.png" alt="">
+                                <img src="src/img/reviews/star.png" alt="">
+                            </div>
+                            <p class="review__name">Jason Griffith, 05 Jul 2019</p>
+                        </div>
+                    </div>
+                    <div class="review__main">“ Fourth fill creepeth i may. Grass
+                        night over can't dry waters fly whose
+                        face thing seasons signs. ”</div>
+                </div>
+
+                <div class="review__item">
+                    <div class="review__header">
+                        <div class="review__img"><img src="src/img/reviews/user-2.png" alt="user-icon"></div>
+                        <div class="review__descr">
+                            <div class="review__rating">
+                                <img src="src/img/reviews/star.png" alt="">
+                                <img src="src/img/reviews/star.png" alt="">
+                                <img src="src/img/reviews/star.png" alt="">
+                                <img src="src/img/reviews/star.png" alt="">
+                                <img src="src/img/reviews/star.png" alt="">
+                            </div>
+                            <p class="review__name">Alexandra Fleming, 01 Jul 2019</p>
+                        </div>
+                    </div>
+                    <div class="review__main">“ Male. Isn't for made meat meat
+                        every place him deep above evening beginning two. ”</div>
+                </div>
+
+                <div class="review__item">
+                    <div class="review__header">
+                        <div class="review__img"><img src="src/img/reviews/user-1.png" alt="user-icon"></div>
+                        <div class="review__descr">
+                            <div class="review__rating">
+                                <img src="src/img/reviews/star.png" alt="">
+                                <img src="src/img/reviews/star.png" alt="">
+                                <img src="src/img/reviews/star.png" alt="">
+                                <img src="src/img/reviews/star.png" alt="">
+                                <img src="src/img/reviews/star.png" alt="">
+                            </div>
+                            <p class="review__name">Alexandra Fleming, 01 Jul 2019</p>
+                        </div>
+                    </div>
+                    <div class="review__main">“ Male. Isn't for made meat meat
+                        every place him deep above evening beginning two. ”</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="subscribtion">
+            <div class="container">
+                <!-- <hr> -->
+                <h2 class="title">Subscribe to our Newsletter</h2>
+                <div class="subtitle">Receive an exclusive 10% discount code when you signup.</div>
+                <form id="subscribtion" action="" class="subscribtion__form">
+                    <div>
+                        <input type="email" id="email" name="text" class="subscribe" required
+                            placeholder="Enter Email *">
+                    </div>
+                    <button class="subscribtion__btn" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_wrapper">
+                <div class="footer__social">
+                    <a href="#" class="header__logo">Shopper.</a>
+                    <div class="social__links">
+                        <a href="#"><img src="src/img/footer/facebook.png" alt="facebook"></a>
+                        <a href="#"><img src="src/img/footer/youtube.png" alt="youtube"></a>
+                        <a href="#"><img src="src/img/footer/twitter.png" alt="twitter"></a>
+                        <a href="#"><img src="src/img/footer/instagram.png" alt="instagram"></a>
+                        <a href="#"><img src="src/img/footer/medium.png" alt="medium"></a>
+                    </div>
+
+                </div>
+
+                <div class="link__wrapper">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                    </ul>
+                </div>
+
+                <div class="link__wrapper">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#">Men's Shopping</a></li>
+                        <li><a href="#">Women's Shopping</a></li>
+                        <li><a href="#">Kids' Shopping</a></li>
+                        <li><a href="#">Discounts</a></li>
+                    </ul>
+                </div>
+
+                <div class="link__wrapper">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy & Cookie policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="link__wrapper">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="#">1-888-923-8044</a></li>
+                        <li><a href="#">1-888-923-8055</a></li>
+                        <li><a href="#">help@allbirds.com</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__icons">
+                <p>© 2019 All rights reserved. Designed by Unvab.</p>
+                <div class="icons">
+                    <a href="#"><img src="src/img/footer/icon-1.png" alt=""></a>
+                    <a href="#"><img src="src/img/footer/icon-2.png" alt=""></a>
+                    <a href="#"><img src="src/img/footer/icon-3.png" alt=""></a>
+                    <a href="#"><img src="src/img/footer/icon-4.png" alt=""></a>
+                    <a href="#"><img src="src/img/footer/icon-5.png" alt=""></a>
+                    <a href="#"><img src="src/img/footer/icon-6.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="src/js/slick.min.js"></script>
+    <script type="text/javascript" src="src/js/jquery.validate.min.js"></script>
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>

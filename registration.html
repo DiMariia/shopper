@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/slick.css" />
+    <title>Shopper.</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+
+            <div class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="menu-item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="shoes.html">Shoes</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="watches.html">Watches</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Pages</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Elements</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="#" class="header__logo">Shopper.</a>
+
+            <div class="header__selected">
+                <select id="person" name="personlist" form=" ">
+                    <option value="1">Unated States</option>
+                    <option value="2">Ukraine</option>
+                </select>
+
+                <select id="person" name="personlist" form=" ">
+                    <option value="1">USD</option>
+                    <option value="2">EUR</option>
+                    <option value="2">UAH</option>
+
+                </select>
+
+                <select id="person" name="personlist" form=" ">
+                    <option value="1">EN</option>
+                    <option value="2">UK</option>
+                </select>
+            </div>
+
+            <div class="header__link">
+                <a href="#"><img src="src/img/header/search.png" alt="search"></a>
+                <a href="registration.html"><img src="src/img/header/person.png" alt="account"></a>
+                <a href="#"><img src="src/img/header/heart.png" alt="liked"></a>
+                <a href="#"><img src="src/img/header/cart.png" alt="cart"></a>
+            </div>
+            <div class="header__burger">
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="registration">
+        <div class="container">
+            <form id="registration" action="" class="registration__form">
+                <h3>Personal information</h3>
+
+                <label for="name"><b>First name *</b></label>
+                <input type="text" placeholder="" name="name" required>
+
+                <label for="lastname"><b>Last name *</b></label>
+                <input type="text" placeholder="" name="lastname" required>
+
+                <label for="email"><b>Email *</b></label>
+                <input type="text" placeholder="" name="email" required>
+
+                <label for="phone"><b>Phone number </b></label>
+                <input type="number" placeholder="" name="phone">
+
+                <label for="password"><b>Password *</b></label>
+                <input type="password" placeholder="" name="password" required>
+
+                <label for="password_confirm"><b>Repeat Password *</b></label>
+                <input type="password" placeholder="" name="password_confirm" required>
+
+                <label class="check">
+                    <input type="checkbox" checked="checked" name="remember" class="checkbox">
+                    <span class="checkmark"></span>
+                    <p>Receive messages about updates</p>
+                </label>
+
+                <p>By creating an account you agree to our <a href="#" style="color:#FF6F61">Terms & Privacy</a>.</p>
+
+                <button type="submit" class="registration__btn">Sign Up</button>
+
+            </form>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="src/js/slick.min.js"></script>
+    <script type="text/javascript" src="src/js/jquery.validate.min.js"></script>
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>

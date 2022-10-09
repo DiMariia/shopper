@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/slick.css" />
+    <title>Shopper.</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+
+            <div class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="menu-item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="menu-item menu-item-active">
+                        <a href="shoes.html">Shoes</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="watches.html">Watches</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Pages</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Elements</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="#" class="header__logo">Shopper.</a>
+
+            <div class="header__selected">
+                <select id="person" name="personlist" form=" ">
+                    <option value="1">Unated States</option>
+                    <option value="2">Ukraine</option>
+                </select>
+
+                <select id="person" name="personlist" form=" ">
+                    <option value="1">USD</option>
+                    <option value="2">EUR</option>
+                    <option value="2">UAH</option>
+
+                </select>
+
+                <select id="person" name="personlist" form=" ">
+                    <option value="1">EN</option>
+                    <option value="2">UK</option>
+                </select>
+            </div>
+
+            <div class="header__link">
+                <a href="#"><img src="src/img/header/search.png" alt="search"></a>
+                <a href="registration.html"><img src="src/img/header/person.png" alt="account"></a>
+                <a href="#"><img src="src/img/header/heart.png" alt="liked"></a>
+                <a href="#"><img src="src/img/header/cart.png" alt="cart"></a>
+            </div>
+            <div class="header__burger">
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="shoes-main">
+            <div class="container">
+                <div class="shoes-main__title">
+                    <h2 class="title">Summer Collection in Leather</h2>
+                    <div class="shoes-main__links">
+                        <a class="shoes-main__btn" href="#">Shop Womens</a>
+                        <a class="shoes-main__btn" href="#">Shop Mens</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shoes-main__slider">
+                <div class="slider__item">
+                    <img class="shoes__img" src="src/img/shoes/slide1.jpg" alt="img" />
+                </div>
+                <div class="slider__item">
+                    <img class="shoes__img" src="src/img/shoes/slide2.jpg" alt="img" />
+                </div>
+                <div class="slider__item">
+                    <img class="shoes__img" src="src/img/shoes/slide3.jpg" alt="img" />
+                </div>
+                <div class="slider__item">
+                    <img class="shoes__img" src="src/img/shoes/slide4.jpg" alt="img" />
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="features__wrapper">
+
+                    <div class="features__block">
+                        <div class="features__img"><img src="src/img/home/features/shipping.png" alt="icon">
+                        </div>
+                        <div class="features__text">
+                            <h3>Free Shipping</h3>
+                            <p>From all orders over $100</p>
+                        </div>
+                    </div>
+
+                    <div class="features__block">
+                        <div class="features__img"><img src="src/img/home/features/returns.png" alt="icon">
+                        </div>
+                        <div class="features__text">
+                            <h3>Free Returns</h3>
+                            <p>Return money within 30 days</p>
+                        </div>
+                    </div>
+
+                    <div class="features__block">
+                        <div class="features__img"><img src="src/img/home/features/secure.png" alt="icon">
+                        </div>
+                        <div class="features__text">
+                            <h3>Secure Shopping</h3>
+                            <p> You're in safe hands</p>
+                        </div>
+                    </div>
+
+                    <div class="features__block">
+                        <div class="features__img"><img src="src/img/home/features/styles.png" alt="icon">
+                        </div>
+                        <div class="features__text">
+                            <h3>Over 10,000 Styles</h3>
+                            <p>We have everything you need</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </section>
+
+        <section class="shoes-categories">
+            <div class="container">
+                <h2 class="title">Popular Categories</h2>
+                <div class="subtitle">Appear, dry there darkness they're seas, dry waters thing fly midst.
+                    Beast, above fly brought Very green.</div>
+
+                <div class="shoes-categories__slider">
+                    <div class="slider__item">
+                        <img class="slider__img" src="src/img/shoes/categories/sneakers.jpg" alt="img" />
+                        <a class=" promo__btn" href="#">Sneakers<img src="src/img/arrow.png" alt="arrow"></a>
+                    </div>
+                    <div class="slider__item">
+                        <img class="slider__img" src="src/img/shoes/categories/sandals.jpg" alt="img" />
+                        <a class=" promo__btn" href="#">Sandals<img src="src/img/arrow.png" alt="arrow"></a>
+                    </div>
+                    <div class="slider__item">
+                        <img class="slider__img" src="src/img/shoes/categories/flats.jpg" alt="img" />
+                        <a class=" promo__btn" href="#">Flats<img src="src/img/arrow.png" alt="arrow"></a>
+                    </div>
+                    <div class="slider__item">
+                        <img class="slider__img" src="src/img/shoes/categories/boots.jpg" alt="img" />
+                        <a class=" promo__btn" href="#">Boots<img src="src/img/arrow.png" alt="arrow"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="shoes-new">
+            <div class="container">
+                <h2>new arrivals</h2>
+                <ul class="shoes-new__tabs">
+                    <li class="shoes-new__tab shoes-new__tab-active">
+                        <div>All</div>
+                    </li>
+                    <li class="shoes-new__tab">
+                        <div>Shop Womens</div>
+                    </li>
+                    <li class="shoes-new__tab">
+                        <div>Shop Mens</div>
+                    </li>
+                </ul>
+
+                <div class="shoes-new__wrapper shoes-new__wrapper-active">
+
+                    <div class="shoes-new__item">
+                        <img src="src/img/shoes/new/item1.png" alt="">
+                        <div class="product__descr">
+                            <div class="product__name-category">
+                                <h4 class="product__name">Textile Sneakers</h4>
+                                <p class="product__category">Sneakers</p>
+                            </div>
+                            <p class="product__price">$29.00</p>
+                        </div>
+                        <div class="product__info">
+                            <div>
+                                <form class="product__color">
+                                    <input type="radio" id="green-btn" name="choose-color">
+                                    <input type="radio" id="black-btn" name="choose-color">
+                                    <input type="radio" id="red-btn" name="choose-color">
+                                    <input type="radio" id="grey-btn" name="choose-color">
+                                    <input type="radio" id="white-btn" name="choose-color">
+                                </form>
+                                <a href="">6</a>
+                                <a href="">6.5</a>
+                                <a href="">7</a>
+                                <a href="">7.5</a>
+                                <a href="">8</a>
+                                <a href="">8.5</a>
+                            </div>
+
+                            <a class="buy__btn" href="#">buy</a>
+                        </div>
+                    </div>
+
+                    <div class="shoes-new__item">
+                        <img src="src/img/shoes/new/item2.png" alt="">
+                        <div class="product__descr">
+                            <div class="product__name-category">
+                                <h4 class="product__name">Espadrilles in suede</h4>
+                                <p class="product__category">Espadrilles</p>
+                            </div>
+                            <p class="product__price">$60.00</p>
+                        </div>
+
+                        <div class="product__info">
+                            <div>
+                                <form class="product__color">
+                                    <input type="radio" id="blue-btn" name="choose-color">
+                                    <input type="radio" id="black-btn" name="choose-color">
+                                    <input type="radio" id="grey-btn" name="choose-color">
+                                    <input type="radio" id="white-btn" name="choose-color">
+                                </form>
+                                <a href="">6</a>
+                                <a href="">6.5</a>
+                                <a href="">7</a>
+                                <a href="">7.5</a>
+                                <a href="">8</a>
+                                <a href="">8.5</a>
+                            </div>
+
+                            <a class="buy__btn" href="#">buy</a>
+                        </div>
+                    </div>
+
+                    <div class="shoes-new__item">
+                        <img src="src/img/shoes/new/item3.png" alt="">
+                        <div class="product__descr">
+                            <div class="product__name-category">
+                                <h4 class="product__name">Leather wide Heels</h4>
+                                <p class="product__category">Heels</p>
+                            </div>
+                            <div class="price">
+                                <p class="product__price-old">$115.00</p>
+                                <p class="product__price">$85.00</p>
+                            </div>
+                        </div>
+
+                        <div class="product__info">
+                            <div>
+                                <form class="product__color">
+                                    <input type="radio" id="beige-btn" name="choose-color">
+                                    <input type="radio" id="black-btn" name="choose-color">
+                                    <input type="radio" id="grey-btn" name="choose-color">
+                                    <input type="radio" id="white-btn" name="choose-color">
+                                </form>
+                                <a href="">6</a>
+                                <a href="">6.5</a>
+                                <a href="">7</a>
+                                <a href="">7.5</a>
+                                <a href="">8</a>
+                                <a href="">8.5</a>
+                            </div>
+
+                            <a class="buy__btn" href="#">buy</a>
+                        </div>
+                    </div>
+
+                    <div class="shoes-new__item">
+                        <img src="src/img/shoes/new/item4.png" alt="">
+                        <div class="product__descr">
+                            <div class="product__name-category">
+                                <h4 class="product__name">Translucent Sneakers</h4>
+                                <p class="product__category">Sneakers</p>
+                            </div>
+                            <p class="product__price">$49.00</p>
+                        </div>
+
+                        <div class="product__info">
+                            <div>
+                                <form class="product__color">
+                                    <input type="radio" id="purple-btn" name="choose-color">
+                                    <input type="radio" id="black-btn" name="choose-color">
+                                    <input type="radio" id="grey-btn" name="choose-color">
+                                    <input type="radio" id="white-btn" name="choose-color">
+                                </form>
+                                <a href="">6</a>
+                                <a href="">6.5</a>
+                                <a href="">7</a>
+                                <a href="">7.5</a>
+                                <a href="">8</a>
+                                <a href="">8.5</a>
+                            </div>
+
+                            <a class="buy__btn" href="#">buy</a>
+                        </div>
+                    </div>
+
+                    <div class="shoes-new__item">
+                        <img src="src/img/shoes/new/item5.png" alt="">
+                        <div class="product__descr">
+                            <div class="product__name-category">
+                                <h4 class="product__name">Sneakers in suede</h4>
+                                <p class="product__category">Sneakers</p>
+                            </div>
+                            <p class="product__price">$119.00</p>
+                        </div>
+
+                        <div class="product__info">
+                            <div>
+                                <form class="product__color">
+                                    <input type="radio" id="purple-btn" name="choose-color">
+                                    <input type="radio" id="black-btn" name="choose-color">
+                                    <input type="radio" id="grey-btn" name="choose-color">
+                                    <input type="radio" id="white-btn" name="choose-color">
+                                </form>
+                                <a href="">6</a>
+                                <a href="">6.5</a>
+                                <a href="">7</a>
+                                <a href="">7.5</a>
+                                <a href="">8</a>
+                                <a href="">8.5</a>
+                            </div>
+
+                            <a class="buy__btn" href="#">buy</a>
+                        </div>
+                    </div>
+
+                    <div class="shoes-new__item">
+                        <img src="src/img/shoes/new/item6.png" alt="">
+                        <div class="product__descr">
+                            <div class="product__name-category">
+                                <h4 class="product__name">Faux leather Flip Flops</h4>
+                                <p class="product__category">Sandals</p>
+                            </div>
+                            <div class="price">
+                                <p class="product__price-old">$79.00</p>
+                                <p class="product__price">$49.00</p>
+                            </div>
+                        </div>
+
+                        <div class="product__info">
+                            <div>
+                                <form class="product__color">
+                                    <input type="radio" id="brown-btn" name="choose-color">
+                                    <input type="radio" id="black-btn" name="choose-color">
+                                    <input type="radio" id="grey-btn" name="choose-color">
+                                    <input type="radio" id="white-btn" name="choose-color">
+                                </form>
+                                <a href="">6</a>
+                                <a href="">6.5</a>
+                                <a href="">7</a>
+                                <a href="">7.5</a>
+                                <a href="">8</a>
+                                <a href="">8.5</a>
+                            </div>
+
+                            <a class="buy__btn" href="#">buy</a>
+                        </div>
+                    </div>
+
+                    <div class="shoes-new__item">
+                        <img src="src/img/shoes/new/item7.png" alt="">
+                        <div class="product__descr">
+                            <div class="product__name-category">
+                                <h4 class="product__name">Leather Ankle Boots</h4>
+                                <p class="product__category">Boots</p>
+                            </div>
+                            <p class="product__price">$140.00</p>
+                        </div>
+                        <div class="product__info">
+                            <div>
+                                <form class="product__color">
+                                    <input type="radio" id="beige-btn" name="choose-color">
+                                    <input type="radio" id="black-btn" name="choose-color">
+                                    <input type="radio" id="grey-btn" name="choose-color">
+                                    <input type="radio" id="white-btn" name="choose-color">
+                                </form>
+                                <a href="">6</a>
+                                <a href="">6.5</a>
+                                <a href="">7</a>
+                                <a href="">7.5</a>
+                                <a href="">8</a>
+                                <a href="">8.5</a>
+                            </div>
+
+                            <a class="buy__btn" href="#">buy</a>
+                        </div>
+                    </div>
+
+                    <div class="shoes-new__item">
+                        <img src="src/img/shoes/new/item8.png" alt="">
+                        <div class="product__descr">
+                            <div class="product__name-category">
+                                <h4 class="product__name">Leather strappy Sandals</h4>
+                                <p class="product__category">Sandals</p>
+                            </div>
+                            <p class="product__price">$90.00</p>
+                        </div>
+                        <div class="product__info">
+                            <div>
+                                <form class="product__color">
+                                    <input type="radio" id="darkbrown-btn" name="choose-color">
+                                    <input type="radio" id="black-btn" name="choose-color">
+                                    <input type="radio" id="grey-btn" name="choose-color">
+                                    <input type="radio" id="white-btn" name="choose-color">
+                                </form>
+                                <a href="">6</a>
+                                <a href="">6.5</a>
+                                <a href="">7</a>
+                                <a href="">7.5</a>
+                                <a href="">8</a>
+                                <a href="">8.5</a>
+                            </div>
+
+                            <a class="buy__btn" href="#">buy</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <a class="shoes-main__btn shoes-new__btn" href="#">Discover more</a>
+            </div>
+        </section>
+
+        <section class="promo">
+            <div class="container">
+                <div class="promo__wrapper">
+                    <div class="promo__img">
+                        <div class="promo__photo promo__photo-shoes"></div>
+                        <div class="overlay overlay-shoes">
+                            <h2>SALE OF SELECTED ITEMS</h2>
+                            <div class="promo__discount">
+                                <p> save <br><b>30%</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="promo__descr">
+                        <h2 class="title">Get -30% from Spring Collection</h2>
+                        <div class="timer">
+                            <div class="timer__items">
+                                <div class="timer__item timer__days">00</div>
+                                <div class="timer__item timer__hours">00</div>
+                                <div class="timer__item timer__minutes">00</div>
+                                <div class="timer__item timer__seconds">00</div>
+                            </div>
+                        </div>
+                        <a class=" promo__btn" href="#">Shop Now<img src="src/img/arrow.png" alt="arrow"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="shoes-bestsellers">
+            <div class="container">
+                <h2>Best Sellers</h2>
+                <div class="shoes-new__wrapper shoes-new__wrapper-active shoes-bestsellers__slider">
+
+                    <div class="shoes-new__item">
+                        <img src="src/img/shoes/bestsellers/item1.jpg" alt="">
+                        <div class="product__descr">
+                            <div class="product__name-category">
+                                <h4 class="product__name">Leather Sneakers</h4>
+                                <p class="product__category">Sneakers</p>
+                            </div>
+                            <p class="product__price">$120.00</p>
+                        </div>
+                        <div class="product__info">
+                            <div>
+                                <form class="product__color">
+                                    <input type="radio" id="green-btn" name="choose-color">
+                                    <input type="radio" id="black-btn" name="choose-color">
+                                </form>
+                                <a href="">6</a>
+                                <a href="">6.5</a>
+                                <a href="">7</a>
+                                <a href="">7.5</a>
+                                <a href="">8</a>
+                                <a href="">8.5</a>
+                            </div>
+
+                            <a class="buy__btn" href="#">buy</a>
+                        </div>
+                    </div>
+
+                    <div class="shoes-new__item">
+                        <img src="src/img/shoes/bestsellers/item2.jpg" alt="">
+                        <div class="product__descr">
+                            <div class="product__name-category">
+                                <h4 class="product__name">Heels in suede</h4>
+                                <p class="product__category">Heels</p>
+                            </div>
+                            <div class="price">
+                                <p class="product__price-old">$139.00</p>
+                                <p class="product__price">$69.00</p>
+                            </div>
+
+                        </div>
+                        <div class="product__info">
+                            <div>
+                                <form class="product__color">
+                                    <input type="radio" id="raspberry-btn" name="choose-color">
+                                    <input type="radio" id="black-btn" name="choose-color">
+                                    <input type="radio" id="white-btn" name="choose-color">
+                                </form>
+                                <a href="">6</a>
+                                <a href="">6.5</a>
+                                <a href="">7</a>
+                                <a href="">7.5</a>
+                                <a href="">8</a>
+                                <a href="">8.5</a>
+                            </div>
+
+                            <a class="buy__btn" href="#">buy</a>
+                        </div>
+                    </div>
+
+                    <div class="shoes-new__item">
+                        <img src="src/img/shoes/bestsellers/item3.jpg" alt="">
+                        <div class="product__descr">
+                            <div class="product__name-category">
+                                <h4 class="product__name">Leather Loafers</h4>
+                                <p class="product__category">Loafers</p>
+                            </div>
+                            <p class="product__price">$134.00</p>
+                        </div>
+                        <div class="product__info">
+                            <div>
+                                <form class="product__color">
+                                    <input type="radio" id="darkbrown-btn" name="choose-color">
+                                    <input type="radio" id="black-btn" name="choose-color">
+                                </form>
+                                <a href="">6</a>
+                                <a href="">6.5</a>
+                                <a href="">7</a>
+                                <a href="">7.5</a>
+                                <a href="">8</a>
+                                <a href="">8.5</a>
+                            </div>
+
+                            <a class="buy__btn" href="#">buy</a>
+                        </div>
+                    </div>
+
+                    <div class="shoes-new__item">
+                        <img src="src/img/shoes/bestsellers/item4.jpg" alt="">
+                        <div class="product__descr">
+                            <div class="product__name-category">
+                                <h4 class="product__name">Colored Sneakers in suede</h4>
+                                <p class="product__category">Sneakers</p>
+                            </div>
+                            <p class="product__price">$120.00</p>
+                        </div>
+                        <div class="product__info">
+                            <div>
+                                <form class="product__color">
+                                    <input type="radio" id="orange-btn" name="choose-color">
+                                    <input type="radio" id="grey-btn" name="choose-color">
+                                    <input type="radio" id="white-btn" name="choose-color">
+                                </form>
+                                <a href="">6</a>
+                                <a href="">6.5</a>
+                                <a href="">7</a>
+                                <a href="">7.5</a>
+                                <a href="">8</a>
+                                <a href="">8.5</a>
+                            </div>
+
+                            <a class="buy__btn" href="#">buy</a>
+                        </div>
+                    </div>
+
+                    <div class="shoes-new__item">
+                        <img src="src/img/shoes/bestsellers/item3.jpg" alt="">
+                        <div class="product__descr">
+                            <div class="product__name-category">
+                                <h4 class="product__name">Textile Sneakers</h4>
+                                <p class="product__category">Sneakers</p>
+                            </div>
+                            <p class="product__price">$29.00</p>
+                        </div>
+                        <div class="product__info">
+                            <div>
+                                <form class="product__color">
+                                    <input type="radio" id="green-btn" name="choose-color">
+                                    <input type="radio" id="black-btn" name="choose-color">
+                                    <input type="radio" id="red-btn" name="choose-color">
+                                    <input type="radio" id="grey-btn" name="choose-color">
+                                    <input type="radio" id="white-btn" name="choose-color">
+                                </form>
+                                <a href="">6</a>
+                                <a href="">6.5</a>
+                                <a href="">7</a>
+                                <a href="">7.5</a>
+                                <a href="">8</a>
+                                <a href="">8.5</a>
+                            </div>
+
+                            <a class="buy__btn" href="#">buy</a>
+                        </div>
+                    </div>
+
+                    <div class="shoes-new__item">
+                        <img src="src/img/shoes/bestsellers/item2.jpg" alt="">
+                        <div class="product__descr">
+                            <div class="product__name-category">
+                                <h4 class="product__name">Textile Sneakers</h4>
+                                <p class="product__category">Sneakers</p>
+                            </div>
+                            <p class="product__price">$29.00</p>
+                        </div>
+                        <div class="product__info">
+                            <div>
+                                <form class="product__color">
+                                    <input type="radio" id="green-btn" name="choose-color">
+                                    <input type="radio" id="black-btn" name="choose-color">
+                                    <input type="radio" id="red-btn" name="choose-color">
+                                    <input type="radio" id="grey-btn" name="choose-color">
+                                    <input type="radio" id="white-btn" name="choose-color">
+                                </form>
+                                <a href="">6</a>
+                                <a href="">6.5</a>
+                                <a href="">7</a>
+                                <a href="">7.5</a>
+                                <a href="">8</a>
+                                <a href="">8.5</a>
+                            </div>
+
+                            <a class="buy__btn" href="#">buy</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="shoes-categories shoes-categories-more">
+            <div class="container">
+                <div class="shoes-categories__wrapper shoes-categories__wrapper-more">
+                    <div class="slider__item slider__item-more">
+                        <img class="slider__img" src="src/img/shoes/categories/athletic.jpg" alt="img" />
+                        <a class=" promo__btn" href="#">Sneakers<img src="src/img/arrow.png" alt="arrow"></a>
+                    </div>
+                    <div class="slider__item slider__item-more">
+                        <img class="slider__img" src="src/img/shoes/categories/oxfords.jpg" alt="img" />
+                        <a class=" promo__btn" href="#">Sandals<img src="src/img/arrow.png" alt="arrow"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="shoes-reviews">
+            <div class="container">
+                <h4 class="topic">what buyers say</h4>
+                <h2 class="title">Latest buyers Reviews</h2>
+                <div class="shoes-reviews__slider">
+
+                    <div class="review__item review__item-shoes">
+                        <div class="review__header">
+                            <div class="review__img"><img src="src/img/shoes/reviews/review1.png" alt="user-icon"></div>
+                            <div class="review__descr">
+                                <p class="review__category">Flats</p>
+                                <p class="review__name review__name-shoes">Leather Flats</p>
+                                <div class="review__rating">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review__main review__main-shoes">From creepeth said moved given divide
+                            make multiply of him shall itself also above
+                            second doesn't unto created saying land
+                            herb sea midst night wherein.
+                            <p class="review__date">Logan Edwards, 01 Jun 2019</p>
+                        </div>
+                    </div>
+
+                    <div class="review__item review__item-shoes">
+                        <div class="review__header">
+                            <div class="review__img"><img src="src/img/shoes/reviews/review2.png" alt="user-icon"></div>
+                            <div class="review__descr">
+                                <p class="review__category">Sneakers</p>
+                                <p class="review__name review__name-shoes">Leather Sneakers</p>
+                                <div class="review__rating">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review__main review__main-shoes">God every fill great replenish darkness unto.
+                            Very open. Likeness their that light. Given
+                            under image to. Subdue of shall cattle day
+                            fish form saw spirit and given stars, us you
+                            whales may, land, saw fill unto.
+                            <p class="review__date">Jane Jefferson, 29 May 2019</p>
+                        </div>
+                    </div>
+
+                    <div class="review__item review__item-shoes">
+                        <div class="review__header">
+                            <div class="review__img"><img src="src/img/shoes/reviews/review3.png" alt="user-icon"></div>
+                            <div class="review__descr">
+                                <p class="review__category">Sandals</p>
+                                <p class="review__name review__name-shoes">Textile Sandals</p>
+                                <div class="review__rating">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review__main review__main-shoes">Fill his waters wherein signs likeness waters.
+                            Second light gathered appear sixth fourth,
+                            seasons behold creeping female.
+                            <p class="review__date">Darrell Baker, 18 May 2019</p>
+                        </div>
+                    </div>
+
+                    <div class="review__item review__item-shoes">
+                        <div class="review__header">
+                            <div class="review__img"><img src="src/img/shoes/reviews/review3.png" alt="user-icon"></div>
+                            <div class="review__descr">
+                                <p class="review__category">Flats</p>
+                                <p class="review__name review__name-shoes">Leather Flats</p>
+                                <div class="review__rating">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review__main review__main-shoes">“From creepeth said moved given divide
+                            make multiply of him shall itself also above
+                            second doesn't unto created saying land
+                            herb sea midst night wherein.
+                            <p class="review__date">Logan Edwards, 01 Jun 2019</p>
+                        </div>
+                    </div>
+
+                    <div class="review__item review__item-shoes">
+                        <div class="review__header">
+                            <div class="review__img"><img src="src/img/shoes/reviews/review2.png" alt="user-icon"></div>
+                            <div class="review__descr">
+                                <p class="review__category">Sneakers</p>
+                                <p class="review__name review__name-shoes">Leather Sneakers</p>
+                                <div class="review__rating">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review__main review__main-shoes">God every fill great replenish darkness unto.
+                            Very open. Likeness their that light. Given
+                            under image to. Subdue of shall cattle day
+                            fish form saw spirit and given stars, us you
+                            whales may, land, saw fill unto.
+                            <p class="review__date">Jane Jefferson, 29 May 2019</p>
+                        </div>
+                    </div>
+
+                    <div class="review__item review__item-shoes">
+                        <div class="review__header">
+                            <div class="review__img"><img src="src/img/shoes/reviews/review1.png" alt="user-icon"></div>
+                            <div class="review__descr">
+                                <p class="review__category">Flats</p>
+                                <p class="review__name review__name-shoes">Leather Flats</p>
+                                <div class="review__rating">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                    <img src="src/img/reviews/star.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review__main review__main-shoes">From creepeth said moved given divide
+                            make multiply of him shall itself also above
+                            second doesn't unto created saying land
+                            herb sea midst night wherein.
+                            <p class="review__date">Logan Edwards, 01 Jun 2019</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__newsletter">
+                <h2>Want style Ideas and Treats?</h2>
+                <form id="" class="form__newsletter" action="#">
+                    <div class="input__wrapper">
+                        <input type="email" id="email" name="text" class="subscribe" required
+                            placeholder="Enter Email *">
+                    </div>
+                    <button class="subscription__btn" type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer_wrapper">
+                <div class="footer__social">
+                    <a href="#" class="header__logo">Shopper.</a>
+                    <div class="social__links">
+                        <a href="#"><img src="src/img/footer/facebook.png" alt="facebook"></a>
+                        <a href="#"><img src="src/img/footer/youtube.png" alt="youtube"></a>
+                        <a href="#"><img src="src/img/footer/twitter.png" alt="twitter"></a>
+                        <a href="#"><img src="src/img/footer/instagram.png" alt="instagram"></a>
+                        <a href="#"><img src="src/img/footer/medium.png" alt="medium"></a>
+                    </div>
+
+                </div>
+
+                <div class="link__wrapper">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                    </ul>
+                </div>
+
+                <div class="link__wrapper">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#">Men's Shopping</a></li>
+                        <li><a href="#">Women's Shopping</a></li>
+                        <li><a href="#">Kids' Shopping</a></li>
+                        <li><a href="#">Discounts</a></li>
+                    </ul>
+                </div>
+
+                <div class="link__wrapper">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy & Cookie policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="link__wrapper">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="#">1-888-923-8044</a></li>
+                        <li><a href="#">1-888-923-8055</a></li>
+                        <li><a href="#">help@allbirds.com</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__icons">
+                <p>© 2019 All rights reserved. Designed by Unvab.</p>
+                <div class="icons">
+                    <a href="#"><img src="src/img/footer/icon-1.png" alt=""></a>
+                    <a href="#"><img src="src/img/footer/icon-2.png" alt=""></a>
+                    <a href="#"><img src="src/img/footer/icon-3.png" alt=""></a>
+                    <a href="#"><img src="src/img/footer/icon-4.png" alt=""></a>
+                    <a href="#"><img src="src/img/footer/icon-5.png" alt=""></a>
+                    <a href="#"><img src="src/img/footer/icon-6.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="src/js/slick.min.js"></script>
+    <script type="text/javascript" src="src/js/jquery.validate.min.js"></script>
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>
