@@ -108,7 +108,7 @@ $(document).ready(function () {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    const deadline = '2022-09-29 23:59:59';
+    const deadline = '2022-11-30 23:59:59';
     let timerId = null;
     function declensionNum(num, words) {
       return words[(num % 100 > 4 && num % 100 < 20) ? 2 : [2, 0, 1, 1, 1, 2][(num % 10 < 5) ? num % 10 : 5]];
